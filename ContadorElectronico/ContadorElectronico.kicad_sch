@@ -244,6 +244,71 @@
         )
       )
     )
+    (symbol "Device:D_Schottky" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "D_Schottky" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "diode Schottky" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Schottky diode" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "D_Schottky_0_1"
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy -1.27 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 1.27)
+            (xy 1.27 -1.27)
+            (xy -1.27 0)
+            (xy 1.27 1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.905 0.635)
+            (xy -1.905 1.27)
+            (xy -1.27 1.27)
+            (xy -1.27 -1.27)
+            (xy -0.635 -1.27)
+            (xy -0.635 -0.635)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "D_Schottky_1_1"
+        (pin passive line (at -3.81 0 0) (length 2.54)
+          (name "K" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 3.81 0 180) (length 2.54)
+          (name "A" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:LED" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
@@ -683,37 +748,37 @@
         )
       )
     )
-    (symbol "Regulator_Linear:L7805" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (symbol "Regulator_Linear:LM7809_TO220" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -3.81 3.175 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "L7805" (at 0 3.175 0)
+      (property "Value" "LM7809_TO220" (at 0 3.175 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Footprint" "" (at 0.635 -3.81 0)
-        (effects (font (size 1.27 1.27) italic) (justify left) hide)
+      (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (at 0 5.715 0)
+        (effects (font (size 1.27 1.27) italic) hide)
       )
-      (property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" (at 0 -1.27 0)
+      (property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF" (at 0 -1.27 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "Voltage Regulator 1.5A Positive" (at 0 0 0)
+      (property "ki_keywords" "Voltage Regulator 1A Positive" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252" (at 0 0 0)
+      (property "ki_description" "Positive 1A 35V Linear Regulator, Fixed Output 9V, TO-220" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "TO?252* TO?263* TO?220*" (at 0 0 0)
+      (property "ki_fp_filters" "TO?220*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "L7805_0_1"
+      (symbol "LM7809_TO220_0_1"
         (rectangle (start -5.08 1.905) (end 5.08 -5.08)
           (stroke (width 0.254) (type default))
           (fill (type background))
         )
       )
-      (symbol "L7805_1_1"
+      (symbol "LM7809_TO220_1_1"
         (pin power_in line (at -7.62 0 0) (length 2.54)
-          (name "IN" (effects (font (size 1.27 1.27))))
+          (name "VI" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at 0 -7.62 90) (length 2.54)
@@ -721,7 +786,7 @@
           (number "2" (effects (font (size 1.27 1.27))))
         )
         (pin power_out line (at 7.62 0 180) (length 2.54)
-          (name "OUT" (effects (font (size 1.27 1.27))))
+          (name "VO" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
       )
@@ -832,6 +897,58 @@
         )
       )
     )
+    (symbol "power:+9V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+9V" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+9V\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+9V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+9V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+9V" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -874,7 +991,7 @@
     )
   )
 
-  (junction (at 40.64 43.18) (diameter 0) (color 0 0 0 0)
+  (junction (at 69.85 31.75) (diameter 0) (color 0 0 0 0)
     (uuid 0cd8e9dd-93f1-4a39-8dce-87620eac0c4a)
   )
   (junction (at 200.66 109.22) (diameter 0) (color 0 0 0 0)
@@ -954,10 +1071,6 @@
     (stroke (width 0) (type default))
     (uuid 218b463f-769c-4fc4-8043-848fdef70aea)
   )
-  (wire (pts (xy 30.48 25.4) (xy 30.48 43.18))
-    (stroke (width 0) (type default))
-    (uuid 249cd4e4-9049-4218-8e42-45423f9ef442)
-  )
   (wire (pts (xy 212.09 104.14) (xy 213.36 104.14))
     (stroke (width 0) (type default))
     (uuid 274acaa4-0263-48c7-a97c-7c248b9f719b)
@@ -970,7 +1083,7 @@
     (stroke (width 0) (type default))
     (uuid 2becebf3-b847-43af-8529-ae45ffbdc8ff)
   )
-  (wire (pts (xy 30.48 43.18) (xy 40.64 43.18))
+  (wire (pts (xy 30.48 31.75) (xy 69.85 31.75))
     (stroke (width 0) (type default))
     (uuid 2c64da75-63b8-494a-9474-832d2363bcb6)
   )
@@ -994,6 +1107,10 @@
     (stroke (width 0) (type default))
     (uuid 3955e63a-8de7-4bf4-a36d-a30b5a104881)
   )
+  (wire (pts (xy 30.48 31.75) (xy 30.48 25.4))
+    (stroke (width 0) (type default))
+    (uuid 42b6c70a-d57a-4ed0-bf11-14e61aaf89f1)
+  )
   (wire (pts (xy 200.66 109.22) (xy 200.66 111.76))
     (stroke (width 0) (type default))
     (uuid 4a4b5748-3a4c-4181-b6da-b867444c65ef)
@@ -1006,7 +1123,7 @@
     (stroke (width 0) (type default))
     (uuid 4f98aa64-8008-4e0e-9842-32ae464faf24)
   )
-  (wire (pts (xy 40.64 44.45) (xy 40.64 43.18))
+  (wire (pts (xy 69.85 33.02) (xy 69.85 31.75))
     (stroke (width 0) (type default))
     (uuid 54b3079b-3319-4012-b5aa-93065cdbe3b3)
   )
@@ -1030,13 +1147,13 @@
     (stroke (width 0) (type default))
     (uuid 64b7c4af-2a7e-4c24-9666-b363ed692188)
   )
-  (wire (pts (xy 31.75 22.86) (xy 30.48 22.86))
-    (stroke (width 0) (type default))
-    (uuid 67020c66-e77f-413f-9b3f-158e6e9ec419)
-  )
   (wire (pts (xy 118.11 130.81) (xy 124.46 130.81))
     (stroke (width 0) (type default))
     (uuid 69121fb4-61d3-4b17-8d41-c43439c16344)
+  )
+  (wire (pts (xy 30.48 22.86) (xy 44.45 22.86))
+    (stroke (width 0) (type default))
+    (uuid 6c4de6d6-d02e-4f32-abd5-c63364bdaaf1)
   )
   (wire (pts (xy 139.7 165.1) (xy 138.43 165.1))
     (stroke (width 0) (type default))
@@ -1050,7 +1167,11 @@
     (stroke (width 0) (type default))
     (uuid 6e728240-bb45-4765-8bd9-2e716a97f3e5)
   )
-  (wire (pts (xy 50.8 34.29) (xy 50.8 31.75))
+  (wire (pts (xy 77.47 22.86) (xy 80.01 22.86))
+    (stroke (width 0) (type default))
+    (uuid 708d41f9-24a0-41d0-99e5-e6d1a37cedd6)
+  )
+  (wire (pts (xy 80.01 22.86) (xy 80.01 20.32))
     (stroke (width 0) (type default))
     (uuid 72327533-4279-4aea-9ccf-0ae61eb62a1a)
   )
@@ -1146,10 +1267,6 @@
     (stroke (width 0) (type default))
     (uuid c2d39a87-eae2-4a37-afd9-72adb136a9d9)
   )
-  (wire (pts (xy 31.75 34.29) (xy 31.75 22.86))
-    (stroke (width 0) (type default))
-    (uuid c2d65954-f852-4366-a354-49087c299e81)
-  )
   (wire (pts (xy 228.6 71.12) (xy 228.6 72.39))
     (stroke (width 0) (type default))
     (uuid c4ad1b0b-4669-468f-8b6c-1b3a3e104f47)
@@ -1182,9 +1299,9 @@
     (stroke (width 0) (type default))
     (uuid d10d1031-e038-46a4-8493-d5164b3a8d68)
   )
-  (wire (pts (xy 31.75 34.29) (xy 33.02 34.29))
+  (wire (pts (xy 52.07 22.86) (xy 62.23 22.86))
     (stroke (width 0) (type default))
-    (uuid d38a01c2-3eb1-42cd-b229-6143ec2ee30e)
+    (uuid d6439f75-622a-4912-af5c-2b290a559b6c)
   )
   (wire (pts (xy 171.45 33.02) (xy 161.29 33.02))
     (stroke (width 0) (type default))
@@ -1198,7 +1315,7 @@
     (stroke (width 0) (type default))
     (uuid e9cc2625-54db-4c7f-ac25-51768a609fbd)
   )
-  (wire (pts (xy 40.64 43.18) (xy 40.64 41.91))
+  (wire (pts (xy 69.85 31.75) (xy 69.85 30.48))
     (stroke (width 0) (type default))
     (uuid ed2041d0-54cd-4ef1-836e-05832bc35ebf)
   )
@@ -1229,10 +1346,6 @@
   (wire (pts (xy 138.43 165.1) (xy 137.16 165.1))
     (stroke (width 0) (type default))
     (uuid f868442c-7042-420e-8f5e-66d8c3c359b5)
-  )
-  (wire (pts (xy 48.26 34.29) (xy 50.8 34.29))
-    (stroke (width 0) (type default))
-    (uuid fb7a3c5f-6001-44d5-b9d8-429ed27b36b4)
   )
 
   (rectangle (start 193.04 26.67) (end 273.05 149.86)
@@ -1354,7 +1467,7 @@
     )
     (pin "1" (uuid fc08c2ea-7bc8-43e8-a925-a8b441934dd4))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "#PWR08") (unit 1)
         )
@@ -1380,7 +1493,7 @@
     (pin "1" (uuid e8b6ddb3-e22b-4fbd-b0c9-a4626b443a6d))
     (pin "2" (uuid adf77eee-789b-4188-901e-bb1edd54445f))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "SW2") (unit 1)
         )
@@ -1412,7 +1525,7 @@
     (pin "3" (uuid 0c2075a2-b407-4461-9001-21dd932fe31b))
     (pin "2" (uuid 53153214-64b8-46bb-a8c7-e9fd37910673))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "U4") (unit 3)
         )
@@ -1438,7 +1551,7 @@
     (pin "2" (uuid e8516f0c-d0da-4b2c-a3e9-8712eb475fca))
     (pin "1" (uuid 2d88a1dd-425c-4af6-8438-44220684ecf7))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "R3") (unit 1)
         )
@@ -1463,7 +1576,7 @@
     )
     (pin "1" (uuid e46547d4-809b-404f-abce-addfef2ea279))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "#PWR016") (unit 1)
         )
@@ -1490,7 +1603,7 @@
     (pin "3" (uuid cc610b09-43e8-41ff-95cc-0b32bba95b8c))
     (pin "2" (uuid 3bea6fc4-bfe0-4ffa-ac12-29457f5c6c7f))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "U3") (unit 1)
         )
@@ -1498,24 +1611,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 40.64 44.45 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 69.85 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 20052cc2-7916-4a72-ab6c-8ec4534bab59)
-    (property "Reference" "#PWR01" (at 40.64 50.8 0)
+    (property "Reference" "#PWR01" (at 69.85 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 40.64 49.53 0)
+    (property "Value" "GND" (at 69.85 38.1 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 40.64 44.45 0)
+    (property "Footprint" "" (at 69.85 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 40.64 44.45 0)
+    (property "Datasheet" "" (at 69.85 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5deb00ef-fd99-4690-92a1-6863f2308e0c))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "#PWR01") (unit 1)
         )
@@ -1540,7 +1653,7 @@
     )
     (pin "1" (uuid 8ff1a479-f273-448d-8c2f-27e295a7e386))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "#PWR011") (unit 1)
         )
@@ -1565,7 +1678,7 @@
     )
     (pin "1" (uuid 2d00790b-3f2e-4b54-9dbd-086febebcadf))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "#PWR019") (unit 1)
         )
@@ -1597,7 +1710,7 @@
     (pin "3" (uuid 0c2075a2-b407-4461-9001-21dd932fe31c))
     (pin "2" (uuid 53153214-64b8-46bb-a8c7-e9fd37910674))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "U4") (unit 1)
         )
@@ -1622,7 +1735,7 @@
     )
     (pin "1" (uuid 53c9f048-01a3-4ab6-a5ec-3e2b685d25dd))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "#PWR015") (unit 1)
         )
@@ -1648,7 +1761,7 @@
     (pin "2" (uuid 17abb653-12b1-460f-b260-cdaf595cae55))
     (pin "1" (uuid a43118be-b8ae-4cf8-ac31-f807647f561c))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "R12") (unit 1)
         )
@@ -1673,9 +1786,35 @@
     )
     (pin "1" (uuid 2e53e27f-802c-4f9e-9526-4c6e09094b3e))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "#PWR06") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:D_Schottky") (at 48.26 22.86 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 451db5c0-dd55-4870-8c3d-6809d6033d3a)
+    (property "Reference" "D2" (at 48.5775 16.51 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "D_Schottky" (at 48.5775 19.05 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Diode_THT:D_DO-15_P12.70mm_Horizontal" (at 48.26 22.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 48.26 22.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid f9c3b505-df11-43b2-aa33-579454c4ae08))
+    (pin "1" (uuid 77139671-2fbd-4ae5-826e-93851064427c))
+    (instances
+      (project "ContadorElectronico"
+        (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -1698,7 +1837,7 @@
     )
     (pin "1" (uuid 1540391b-2626-4505-8756-23a35ea75437))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "#PWR014") (unit 1)
         )
@@ -1728,7 +1867,7 @@
     (pin "5" (uuid 8dabfccf-2548-4d9f-b302-92ee9e5d2fbb))
     (pin "3" (uuid e23f5364-271b-43d7-bbb7-d51959ac14ec))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "U6") (unit 1)
         )
@@ -1754,7 +1893,7 @@
     (pin "1" (uuid 97c9d68b-b5fc-40db-acff-cf2737a5065b))
     (pin "2" (uuid ee90991c-adb5-4dd0-bbd9-63408afa9a99))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "J2") (unit 1)
         )
@@ -1779,7 +1918,7 @@
     )
     (pin "1" (uuid 0ae37d6c-4a4c-4bfc-b719-7c34940f3422))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "#PWR018") (unit 1)
         )
@@ -1804,7 +1943,7 @@
     )
     (pin "1" (uuid 924aa21f-b307-4983-946a-99b7557470cb))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "#PWR027") (unit 1)
         )
@@ -1829,36 +1968,9 @@
     )
     (pin "1" (uuid 54e6ff83-bb39-4424-8621-0061f6b886b9))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "#PWR010") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Regulator_Linear:L7805") (at 40.64 34.29 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 61411898-a289-42aa-9bad-696ab6a047ed)
-    (property "Reference" "U2" (at 40.64 27.94 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "L7805" (at 40.64 30.48 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (at 41.275 38.1 0)
-      (effects (font (size 1.27 1.27) italic) (justify left) hide)
-    )
-    (property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" (at 40.64 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid d52e9238-3537-4213-80b8-04625fb70614))
-    (pin "3" (uuid fab9f536-c65f-4932-a152-c45a7e5b7577))
-    (pin "1" (uuid a5ef08a0-fc54-413b-805d-446224cfb47c))
-    (instances
-      (project "V2"
-        (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "U2") (unit 1)
         )
       )
     )
@@ -1881,7 +1993,7 @@
     )
     (pin "1" (uuid 67de84a6-1692-47db-ab76-f58319e250d1))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "#PWR023") (unit 1)
         )
@@ -1906,7 +2018,7 @@
     )
     (pin "1" (uuid 946a7914-de27-4e1f-8f41-226685f8dcb7))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "#PWR09") (unit 1)
         )
@@ -1931,7 +2043,7 @@
     )
     (pin "1" (uuid 7c5ee1ff-b295-4397-88d8-5dce5235df9d))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "#PWR021") (unit 1)
         )
@@ -1956,7 +2068,7 @@
     )
     (pin "1" (uuid 67fe78f9-b535-49c4-95b7-2433035c2636))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "#PWR05") (unit 1)
         )
@@ -1981,7 +2093,7 @@
     )
     (pin "1" (uuid 2a0552f5-a6ab-4b06-a5ed-62f8324d449c))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "#PWR017") (unit 1)
         )
@@ -2035,7 +2147,7 @@
     (pin "11" (uuid ab1c5651-c0ec-4197-9edc-0753c9a2e7c0))
     (pin "6" (uuid c1d30c04-d051-45ee-b721-150f692f680b))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "A1") (unit 1)
         )
@@ -2067,9 +2179,36 @@
     (pin "3" (uuid 0c2075a2-b407-4461-9001-21dd932fe31d))
     (pin "2" (uuid 53153214-64b8-46bb-a8c7-e9fd37910675))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "U4") (unit 2)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Regulator_Linear:LM7809_TO220") (at 69.85 22.86 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 85c63d89-b191-49a2-afce-55522893e972)
+    (property "Reference" "U2" (at 69.85 16.51 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "LM7809_TO220" (at 69.85 19.05 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (at 69.85 17.145 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF" (at 69.85 24.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c5d98b97-c3d5-41ab-9d20-8acbdc7762ac))
+    (pin "2" (uuid d57bb377-9af6-4a7c-bb16-701d8d995ee5))
+    (pin "3" (uuid 77f987b5-490b-4c40-9405-ee1a203509fc))
+    (instances
+      (project "ContadorElectronico"
+        (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -2092,9 +2231,34 @@
     )
     (pin "1" (uuid b430c264-41b2-4ace-8789-844190fd2d36))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "#PWR020") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+9V") (at 80.01 20.32 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 87e84ceb-e108-4427-862e-bb7d8491972c)
+    (property "Reference" "#PWR04" (at 80.01 24.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+9V" (at 80.01 15.24 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 80.01 20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 80.01 20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6b239499-05c7-4e70-b823-13195ecf908f))
+    (instances
+      (project "ContadorElectronico"
+        (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -2117,7 +2281,7 @@
     )
     (pin "1" (uuid 034522c7-6152-4937-bb22-70cad8eeda50))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "#PWR025") (unit 1)
         )
@@ -2142,7 +2306,7 @@
     )
     (pin "1" (uuid 763dd2fe-c280-470d-80a4-70a8b2129c22))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "#PWR024") (unit 1)
         )
@@ -2168,7 +2332,7 @@
     (pin "1" (uuid 25f413ed-411a-4ab7-a472-c0757210549e))
     (pin "2" (uuid d35aa9b1-074c-4b9f-adc5-63dbac06478a))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "R6") (unit 1)
         )
@@ -2193,7 +2357,7 @@
     )
     (pin "1" (uuid bde30a5f-9f1e-44f2-a5ee-17d1062aa59e))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "#PWR02") (unit 1)
         )
@@ -2219,7 +2383,7 @@
     (pin "2" (uuid 827e49fa-2b79-435d-bb0a-8620a4bec96c))
     (pin "1" (uuid da49bfe8-6f0a-47f9-a20a-b82d43437c17))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "R11") (unit 1)
         )
@@ -2245,7 +2409,7 @@
     (pin "1" (uuid 2453de05-a79d-4651-9520-0df535ac34c7))
     (pin "2" (uuid 21552b58-aeaa-45db-a481-315f44812bc0))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "SW3") (unit 1)
         )
@@ -2271,7 +2435,7 @@
     (pin "1" (uuid d27d8fd2-b0b7-4f9a-8b4e-dcd1e234a353))
     (pin "2" (uuid 2e28e3a7-4238-4326-b512-97a0dc5f8b3b))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "R8") (unit 1)
         )
@@ -2297,34 +2461,9 @@
     (pin "1" (uuid c1427cc7-0df2-4c1e-a5f2-46ec7241412e))
     (pin "2" (uuid 769a061e-ba64-4732-b1cd-fb56862a4bf9))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "R7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 50.8 31.75 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b020317a-b905-4aa6-a5f6-72e6228a4263)
-    (property "Reference" "#PWR04" (at 50.8 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 50.8 26.67 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 50.8 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 50.8 31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid aadc0f00-3e5d-4bb6-82cf-2407cd5363c0))
-    (instances
-      (project "V2"
-        (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -2348,7 +2487,7 @@
     (pin "2" (uuid 5e06494c-22c8-4f69-8c3c-c8b327a09dcd))
     (pin "1" (uuid 00c3458a-3bfb-476a-8ce9-2c0a4ca88f02))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "R1") (unit 1)
         )
@@ -2374,7 +2513,7 @@
     (pin "2" (uuid 2d6c8e93-f97e-411e-beff-fa6cdb2b8953))
     (pin "1" (uuid d812748d-aca0-405b-a89a-6c93d50caa78))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "D1") (unit 1)
         )
@@ -2400,7 +2539,7 @@
     (pin "1" (uuid f7344000-fbf3-4f7a-9fff-291ec707eddf))
     (pin "2" (uuid 150911ce-6bb5-4933-bd0c-90d17f4c6c26))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "J1") (unit 1)
         )
@@ -2426,7 +2565,7 @@
     (pin "1" (uuid 22403353-5c7a-4a3c-89f8-74426bb23fb8))
     (pin "2" (uuid 395c968a-e200-4560-aa3f-8a68c46a6b88))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "R10") (unit 1)
         )
@@ -2452,7 +2591,7 @@
     (pin "2" (uuid a1ad91ab-dba5-4844-9661-94bec21bf9e8))
     (pin "1" (uuid 8110ff6e-6482-421f-96e3-90ab1172d231))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "R2") (unit 1)
         )
@@ -2477,7 +2616,7 @@
     )
     (pin "1" (uuid ce0eaa09-13a3-402f-94e2-30c86cc4c833))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "#PWR03") (unit 1)
         )
@@ -2507,7 +2646,7 @@
     (pin "5" (uuid 3b436f7a-af4b-45eb-83de-a6dfd2cb8a18))
     (pin "3" (uuid 85e11973-e3ec-4ac8-a07b-600ab123c651))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "U5") (unit 1)
         )
@@ -2533,7 +2672,7 @@
     (pin "1" (uuid 8988df42-4d69-45ff-9546-35cb3d13c415))
     (pin "2" (uuid b4e9d6c6-690d-4d8e-bc68-c792a2df1f61))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "R5") (unit 1)
         )
@@ -2559,7 +2698,7 @@
     (pin "1" (uuid 73ecc6e9-4173-4c6a-88ec-0ba9336fbe8b))
     (pin "2" (uuid 8b89836c-809b-489c-b8c1-6777d4cb3332))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "SW1") (unit 1)
         )
@@ -2585,7 +2724,7 @@
     (pin "1" (uuid 9fdc3802-3029-4053-8b59-f227d8a7bc0f))
     (pin "2" (uuid 656a04b2-3564-403f-baad-9ac27f0a6673))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "R9") (unit 1)
         )
@@ -2610,7 +2749,7 @@
     )
     (pin "1" (uuid ae6dbbf2-bc54-45fe-9594-5600a090652c))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "#PWR07") (unit 1)
         )
@@ -2635,7 +2774,7 @@
     )
     (pin "1" (uuid dd5edc26-8bf7-4327-8ba4-a4a269b01d3e))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "#PWR012") (unit 1)
         )
@@ -2664,7 +2803,7 @@
     (pin "5" (uuid a8b03454-9d07-4af5-9822-d956aabf8e68))
     (pin "2" (uuid 5f9010ee-d076-4989-95ab-5a8337e291ca))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "U1") (unit 1)
         )
@@ -2689,7 +2828,7 @@
     )
     (pin "1" (uuid 22930527-214f-4a18-9e73-3c61c061c86d))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "#PWR022") (unit 1)
         )
@@ -2715,7 +2854,7 @@
     (pin "2" (uuid dd46bcd7-e078-43b7-991c-44e60ae2e033))
     (pin "1" (uuid 9a9ffe29-a2f8-4d96-ba46-5d7b58766bfa))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "R4") (unit 1)
         )
@@ -2740,7 +2879,7 @@
     )
     (pin "1" (uuid 16788390-9601-48f9-a444-3c3704cf73a8))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "#PWR013") (unit 1)
         )
@@ -2765,7 +2904,7 @@
     )
     (pin "1" (uuid 047c4d3f-5a35-4e10-b9ab-fbc12e77bc7b))
     (instances
-      (project "V2"
+      (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
           (reference "#PWR026") (unit 1)
         )
