@@ -1478,7 +1478,7 @@
   (symbol (lib_id "power:GND") (at 147.32 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00797187-6cce-423b-83f0-4ce327b6827d)
-    (property "Reference" "#PWR09" (at 147.32 82.55 0)
+    (property "Reference" "#PWR024" (at 147.32 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 147.32 81.28 0)
@@ -1494,7 +1494,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -1529,7 +1529,7 @@
   (symbol (lib_id "power:GND") (at 139.7 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 12a49812-3af2-4577-80a8-e72d9ec53246)
-    (property "Reference" "#PWR028" (at 139.7 154.94 0)
+    (property "Reference" "#PWR023" (at 139.7 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 139.7 153.67 0)
@@ -1545,7 +1545,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -1554,7 +1554,7 @@
   (symbol (lib_id "Amplifier_Operational:LM358") (at 40.64 137.16 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 12dc3ce8-b394-4940-a13d-2aa618d8cdeb)
-    (property "Reference" "U4" (at 39.37 135.89 0)
+    (property "Reference" "U1" (at 39.37 135.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LM358" (at 39.37 138.43 0)
@@ -1577,7 +1577,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "U4") (unit 3)
+          (reference "U1") (unit 3)
         )
       )
     )
@@ -1586,7 +1586,7 @@
   (symbol (lib_id "Device:R") (at 147.32 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 17952795-871c-48fd-ae86-ec4ede1e21a9)
-    (property "Reference" "R3" (at 149.86 114.3 0)
+    (property "Reference" "R11" (at 149.86 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K" (at 149.86 116.84 0)
@@ -1603,7 +1603,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "R3") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -1612,7 +1612,7 @@
   (symbol (lib_id "power:+5V") (at 48.26 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e742f68-bd8b-42ee-80e1-638d59cd8dbb)
-    (property "Reference" "#PWR014" (at 48.26 139.7 0)
+    (property "Reference" "#PWR03" (at 48.26 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 48.26 130.81 0)
@@ -1628,7 +1628,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -1637,7 +1637,7 @@
   (symbol (lib_id "Custom:RELAY_MODULE") (at 97.79 215.9 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1f9d75a8-d131-465f-8dac-759a7c728ab3)
-    (property "Reference" "U3" (at 102.87 217.17 0)
+    (property "Reference" "U5" (at 102.87 217.17 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 97.79 215.9 0)
@@ -1655,7 +1655,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "U3") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -1664,7 +1664,7 @@
   (symbol (lib_id "power:GND") (at 92.71 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 247a3677-a0d3-4425-b68c-10375314489f)
-    (property "Reference" "#PWR08" (at 92.71 119.38 0)
+    (property "Reference" "#PWR013" (at 92.71 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 92.71 118.11 0)
@@ -1680,7 +1680,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -1689,7 +1689,7 @@
   (symbol (lib_id "power:GND") (at 48.26 198.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 280ce2d3-04fa-4495-910d-2637d8c2c511)
-    (property "Reference" "#PWR017" (at 48.26 204.47 0)
+    (property "Reference" "#PWR06" (at 48.26 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 48.26 203.2 0)
@@ -1705,7 +1705,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -1714,7 +1714,7 @@
   (symbol (lib_id "Amplifier_Operational:LM358") (at 68.58 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2e228fc7-0053-400a-9e12-8935c9cd1cb6)
-    (property "Reference" "U4" (at 68.58 134.62 0)
+    (property "Reference" "U1" (at 68.58 134.62 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM358" (at 68.58 137.16 0)
@@ -1737,7 +1737,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "U4") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -1746,7 +1746,7 @@
   (symbol (lib_id "power:+5V") (at 83.82 204.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ea9deb7-5b44-477b-8397-adb3c16c7af2)
-    (property "Reference" "#PWR019" (at 83.82 208.28 0)
+    (property "Reference" "#PWR011" (at 83.82 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 83.82 199.39 0)
@@ -1762,7 +1762,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -1771,7 +1771,7 @@
   (symbol (lib_id "Device:R") (at 100.33 191.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32464e5b-f441-44c8-ba1a-f21b7732f456)
-    (property "Reference" "R12" (at 102.87 190.5 0)
+    (property "Reference" "R8" (at 102.87 190.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 102.87 193.04 0)
@@ -1788,7 +1788,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "R12") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -1797,7 +1797,7 @@
   (symbol (lib_id "power:GND") (at 168.91 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 35b63a42-535c-4995-a169-e7bb608b9d48)
-    (property "Reference" "#PWR01" (at 168.91 154.94 0)
+    (property "Reference" "#PWR029" (at 168.91 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.91 153.67 0)
@@ -1813,7 +1813,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -1822,7 +1822,7 @@
   (symbol (lib_id "power:+5V") (at 133.35 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 413b4ab7-2711-44f2-a2e8-db150a5a41f4)
-    (property "Reference" "#PWR06" (at 133.35 91.44 0)
+    (property "Reference" "#PWR021" (at 133.35 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 133.35 82.55 0)
@@ -1838,7 +1838,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -1873,7 +1873,7 @@
   (symbol (lib_id "power:GND") (at 83.82 209.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 45d29658-4497-400d-b000-013d1898aad8)
-    (property "Reference" "#PWR018" (at 83.82 215.9 0)
+    (property "Reference" "#PWR012" (at 83.82 215.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.01 210.82 0)
@@ -1889,7 +1889,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -1898,7 +1898,7 @@
   (symbol (lib_id "Isolator:4N35") (at 86.36 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4eb52aad-f833-4a87-9b43-0d452b68f47f)
-    (property "Reference" "U6" (at 86.36 176.53 0)
+    (property "Reference" "U4" (at 86.36 176.53 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4N35" (at 86.36 179.07 0)
@@ -1919,7 +1919,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "U6") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -1928,7 +1928,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 57.15 207.01 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 50922046-cdf9-4bd7-8a00-cc4d5273331f)
-    (property "Reference" "J2" (at 57.15 200.66 0)
+    (property "Reference" "J1" (at 57.15 200.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "INPUT" (at 57.15 203.2 0)
@@ -1945,7 +1945,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "J2") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -1954,7 +1954,7 @@
   (symbol (lib_id "power:+5V") (at 48.26 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 50ba0568-c909-4fc5-8a92-43211d210f6a)
-    (property "Reference" "#PWR016" (at 48.26 177.8 0)
+    (property "Reference" "#PWR05" (at 48.26 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 48.26 168.91 0)
@@ -1970,7 +1970,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -1979,7 +1979,7 @@
   (symbol (lib_id "power:GND") (at 38.1 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5405b4d7-6d91-4f34-a2ff-19b72f0bd6b5)
-    (property "Reference" "#PWR027" (at 38.1 151.13 0)
+    (property "Reference" "#PWR02" (at 38.1 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 149.86 0)
@@ -1995,7 +1995,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -2004,7 +2004,7 @@
   (symbol (lib_id "power:GND") (at 147.32 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5a223a43-761c-476e-9788-f21f57767842)
-    (property "Reference" "#PWR011" (at 147.32 127 0)
+    (property "Reference" "#PWR026" (at 147.32 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 147.32 125.73 0)
@@ -2020,7 +2020,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -2029,7 +2029,7 @@
   (symbol (lib_id "power:+5V") (at 96.52 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 67967ec7-fa49-4702-b184-ba38b2ef4493)
-    (property "Reference" "#PWR023" (at 96.52 182.88 0)
+    (property "Reference" "#PWR016" (at 96.52 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 96.52 173.99 0)
@@ -2045,7 +2045,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -2054,7 +2054,7 @@
   (symbol (lib_id "power:GND") (at 147.32 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 691ad406-fe1f-4b01-8c18-f07dc7d41987)
-    (property "Reference" "#PWR010" (at 147.32 107.95 0)
+    (property "Reference" "#PWR025" (at 147.32 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 147.32 106.68 0)
@@ -2070,7 +2070,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -2079,7 +2079,7 @@
   (symbol (lib_id "power:GND") (at 76.2 198.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 74d2aac5-ec4c-46a8-ae32-5189b18b54d6)
-    (property "Reference" "#PWR021" (at 76.2 204.47 0)
+    (property "Reference" "#PWR010" (at 76.2 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.2 203.2 0)
@@ -2095,7 +2095,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -2104,7 +2104,7 @@
   (symbol (lib_id "power:+5V") (at 133.35 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 76ca081a-2f1e-4091-a908-5304b85e8fb7)
-    (property "Reference" "#PWR05" (at 133.35 66.04 0)
+    (property "Reference" "#PWR020" (at 133.35 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 133.35 57.15 0)
@@ -2120,7 +2120,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -2129,7 +2129,7 @@
   (symbol (lib_id "power:GND") (at 48.26 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 799731f6-6de8-4937-b4b9-a0fad0d46c03)
-    (property "Reference" "#PWR015" (at 48.26 166.37 0)
+    (property "Reference" "#PWR04" (at 48.26 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 48.26 165.1 0)
@@ -2145,7 +2145,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -2208,7 +2208,7 @@
   (symbol (lib_id "Amplifier_Operational:LM358") (at 68.58 182.88 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8077f119-3f65-48cb-a21b-bd2cfe9773d3)
-    (property "Reference" "U4" (at 68.58 172.72 0)
+    (property "Reference" "U1" (at 68.58 172.72 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM358" (at 68.58 175.26 0)
@@ -2231,7 +2231,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "U4") (unit 2)
+          (reference "U1") (unit 2)
         )
       )
     )
@@ -2240,7 +2240,7 @@
   (symbol (lib_id "power:GND") (at 76.2 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8621e4f5-1b29-4b26-ad65-b57a0a0d6c32)
-    (property "Reference" "#PWR020" (at 76.2 166.37 0)
+    (property "Reference" "#PWR09" (at 76.2 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.2 165.1 0)
@@ -2256,7 +2256,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -2265,7 +2265,7 @@
   (symbol (lib_id "power:GND") (at 100.33 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f7af27e-1fbe-4185-9ce1-ba0abdcb29c7)
-    (property "Reference" "#PWR025" (at 100.33 201.93 0)
+    (property "Reference" "#PWR018" (at 100.33 201.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 100.33 200.66 0)
@@ -2281,7 +2281,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -2290,7 +2290,7 @@
   (symbol (lib_id "power:GND") (at 100.33 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 91ee6702-420d-407a-8ae3-45ce6a1b8376)
-    (property "Reference" "#PWR024" (at 100.33 163.83 0)
+    (property "Reference" "#PWR017" (at 100.33 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 100.33 162.56 0)
@@ -2306,7 +2306,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -2315,7 +2315,7 @@
   (symbol (lib_id "Device:R") (at 48.26 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 948ad5a9-0e80-44a6-9c90-1ba2d286a568)
-    (property "Reference" "R6" (at 50.8 152.4 0)
+    (property "Reference" "R2" (at 50.8 152.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100" (at 50.8 154.94 0)
@@ -2332,7 +2332,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "R6") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -2341,7 +2341,7 @@
   (symbol (lib_id "power:+5V") (at 50.8 85.09 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9608b7bd-6baf-4df4-9bbd-eaab9f5ae117)
-    (property "Reference" "#PWR03" (at 50.8 88.9 0)
+    (property "Reference" "#PWR07" (at 50.8 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 50.8 80.01 0)
@@ -2357,7 +2357,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -2366,7 +2366,7 @@
   (symbol (lib_id "Device:R") (at 100.33 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 97a6a95f-3098-412b-a475-bdae31f2c8e8)
-    (property "Reference" "R11" (at 102.87 152.4 0)
+    (property "Reference" "R7" (at 102.87 152.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 102.87 154.94 0)
@@ -2383,7 +2383,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "R11") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -2446,7 +2446,7 @@
   (symbol (lib_id "Device:R") (at 48.26 191.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a8b17f11-df38-4b21-99cc-ad68af687aab)
-    (property "Reference" "R8" (at 50.8 190.5 0)
+    (property "Reference" "R4" (at 50.8 190.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100" (at 50.8 193.04 0)
@@ -2463,7 +2463,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "R8") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -2472,7 +2472,7 @@
   (symbol (lib_id "power:+24V") (at 124.46 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad1d93fd-f124-4e1e-be76-c2074267e6ae)
-    (property "Reference" "#PWR029" (at 124.46 144.78 0)
+    (property "Reference" "#PWR019" (at 124.46 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 124.46 135.89 0)
@@ -2488,7 +2488,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -2497,7 +2497,7 @@
   (symbol (lib_id "Device:R") (at 48.26 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid af9c5559-ef2c-4a82-b13a-5f2813bc4915)
-    (property "Reference" "R7" (at 50.8 179.07 0)
+    (property "Reference" "R3" (at 50.8 179.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 50.8 181.61 0)
@@ -2514,7 +2514,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "R7") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -2523,7 +2523,7 @@
   (symbol (lib_id "Device:R") (at 147.32 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b552f86c-da38-4faa-9610-76cc7cfd4058)
-    (property "Reference" "R1" (at 149.86 69.85 0)
+    (property "Reference" "R9" (at 149.86 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K" (at 149.86 72.39 0)
@@ -2540,7 +2540,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "R1") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -2549,7 +2549,7 @@
   (symbol (lib_id "Device:LED") (at 161.29 92.71 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bc5092e8-4ffc-481c-a2dd-8c104e9160ea)
-    (property "Reference" "D2" (at 163.83 89.8525 90)
+    (property "Reference" "D1" (at 163.83 89.8525 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LED" (at 163.83 92.3925 90)
@@ -2566,7 +2566,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "D2") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -2575,7 +2575,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 176.53 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c0ef11bb-aab1-4ae5-b2d6-c036369f54aa)
-    (property "Reference" "J1" (at 176.53 137.16 0)
+    (property "Reference" "J2" (at 176.53 137.16 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "POWER" (at 181.61 144.78 0)
@@ -2592,7 +2592,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "J1") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -2601,7 +2601,7 @@
   (symbol (lib_id "Device:R") (at 76.2 193.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c260461d-6cd4-4a3c-967c-3fb71189f3ca)
-    (property "Reference" "R10" (at 78.74 191.77 0)
+    (property "Reference" "R6" (at 78.74 191.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220" (at 78.74 194.31 0)
@@ -2618,7 +2618,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "R10") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -2627,7 +2627,7 @@
   (symbol (lib_id "Device:R") (at 147.32 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c41bc004-e0f3-41b3-9de9-2a5c13ae972e)
-    (property "Reference" "R2" (at 149.86 95.25 0)
+    (property "Reference" "R10" (at 149.86 95.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K" (at 149.86 97.79 0)
@@ -2644,7 +2644,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "R2") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -2653,7 +2653,7 @@
   (symbol (lib_id "power:GND") (at 50.8 105.41 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ca62da76-da13-491f-8b7b-940fa282b31e)
-    (property "Reference" "#PWR04" (at 50.8 111.76 0)
+    (property "Reference" "#PWR08" (at 50.8 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 50.8 110.49 0)
@@ -2669,7 +2669,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -2678,7 +2678,7 @@
   (symbol (lib_id "Isolator:4N35") (at 86.36 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cbc314f6-6783-43e4-b67f-bcd6affdd6b5)
-    (property "Reference" "U5" (at 86.36 138.43 0)
+    (property "Reference" "U3" (at 86.36 138.43 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4N35" (at 86.36 140.97 0)
@@ -2699,7 +2699,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "U5") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -2708,7 +2708,7 @@
   (symbol (lib_id "Device:R") (at 48.26 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ce18d8de-3715-460b-88b5-e5c73cf992f1)
-    (property "Reference" "R5" (at 50.8 140.97 0)
+    (property "Reference" "R1" (at 50.8 140.97 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 50.8 143.51 0)
@@ -2725,7 +2725,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "R5") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -2760,7 +2760,7 @@
   (symbol (lib_id "Device:R") (at 76.2 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d049fbb2-3eb1-42ec-a233-eec38e9fe0e9)
-    (property "Reference" "R9" (at 78.74 153.67 0)
+    (property "Reference" "R5" (at 78.74 153.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220" (at 78.74 156.21 0)
@@ -2777,7 +2777,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "R9") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -2786,7 +2786,7 @@
   (symbol (lib_id "power:+5V") (at 133.35 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d40fb121-f7da-45d7-b339-5a2c9710345e)
-    (property "Reference" "#PWR07" (at 133.35 110.49 0)
+    (property "Reference" "#PWR022" (at 133.35 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 133.35 101.6 0)
@@ -2802,7 +2802,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -2811,7 +2811,7 @@
   (symbol (lib_id "power:+5V") (at 168.91 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d5e81668-ca9f-45b8-b405-ec0d5b0efc32)
-    (property "Reference" "#PWR02" (at 168.91 143.51 0)
+    (property "Reference" "#PWR028" (at 168.91 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 168.91 134.62 0)
@@ -2827,7 +2827,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -2836,7 +2836,7 @@
   (symbol (lib_id "power:+5V") (at 96.52 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d7c55e66-f1de-466d-bd27-65b93d859612)
-    (property "Reference" "#PWR012" (at 96.52 64.77 0)
+    (property "Reference" "#PWR014" (at 96.52 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 96.52 55.88 0)
@@ -2852,7 +2852,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -2890,7 +2890,7 @@
   (symbol (lib_id "power:+5V") (at 96.52 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid de4000b1-45b2-4325-b937-9394315db796)
-    (property "Reference" "#PWR022" (at 96.52 144.78 0)
+    (property "Reference" "#PWR015" (at 96.52 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 96.52 135.89 0)
@@ -2906,7 +2906,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -2915,7 +2915,7 @@
   (symbol (lib_id "Device:R") (at 161.29 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f401209a-c973-4e3d-9008-1bcdf198af0a)
-    (property "Reference" "R4" (at 163.83 99.06 0)
+    (property "Reference" "R12" (at 163.83 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220" (at 163.83 101.6 0)
@@ -2932,7 +2932,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "R4") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -2941,7 +2941,7 @@
   (symbol (lib_id "power:GND") (at 161.29 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f8c1aa2b-f425-414d-abaa-bbf469b13843)
-    (property "Reference" "#PWR013" (at 161.29 110.49 0)
+    (property "Reference" "#PWR027" (at 161.29 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 161.29 109.22 0)
@@ -2957,7 +2957,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -2966,7 +2966,7 @@
   (symbol (lib_id "power:+5V") (at 38.1 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fa77a9e2-fdf1-41b7-a514-8a18179f51c2)
-    (property "Reference" "#PWR026" (at 38.1 133.35 0)
+    (property "Reference" "#PWR01" (at 38.1 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 38.1 124.46 0)
@@ -2982,7 +2982,7 @@
     (instances
       (project "ContadorElectronico"
         (path "/7e60630a-8ace-4264-b872-1b7f6bc0698d"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
